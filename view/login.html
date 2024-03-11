@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+    <link rel="shortcut icon" href="images/favico.ico">
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+    <script src="http://www.gongjuji.net/Content/files/jquery.md5.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="imgcontainer">
+<!--        这里图片的路径写法很重要，只能这样才能读到，不知道为啥-->
+        <img src="images/camps.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="uname"><b>用户名</b></label>
+        <input id="username" type="text" placeholder="Enter Username" name="uname" required>
+        <label for="psw"><b>密码</b></label>
+        <input id="passwd" type="password" placeholder="Enter Password" name="psw" required>
+        <button type="submit" onclick="login()">登入</button>
+    </div>
+</body>
+</html>
+
+<script>
+    function login() {
+        // 输出调试信息
+        console.log("2222");
+
+        // 获取用户名和密码输入框元素
+        var username = document.getElementById("username");
+        var passwd = document.getElementById("passwd");
+
+        // 非空校验
+        if(username.value === "") {
+            username.focus(); // 设置焦点到用户名输入框
+            return; // 返回，防止提交空数据
+        }
+
+        if(passwd.value === "") {
+            passwd.focus(); // 设置焦点到密码输入框
+            return; // 返回，防止提交空数据
+        }
+
+        // 发起Ajax请求
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: urlPrefix + '/user/login', // 登录接口URL
+            contentType: "application/json",
+            data: JSON.stringify({
+                "user_name": username.value,
+                "pass_word": passwd.value
+            }),
+            success: function(result) {
+                console.log("data is ：" + result);
+
+                // 根据返回结果处理逻辑
+                if (result.code == 0) {
+                    // 登录成功，跳转到指定页面并携带用户名参数
+                    window.location.href = urlPrefix + "/static/index.html?name=" + username.value;
+                    window.event.returnValue = false; // 阻止默认行为
+                } else {
+                    // 登录失败，弹出提示框显示错误信息
+                    alert("账号或密码错误");
+                    // window.location.href = urlPrefix + "/static/register.html";
+                    // window.event.returnValue = false; // 阻止默认行为
+
+                }
+            },
+            // 得这样写才有弹窗
+            error:function (result) {
+                alert("账号或密码错误");
+            }
+        });
+    }
+
+</script>

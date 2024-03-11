@@ -1,0 +1,115 @@
+[2024-03-10 14:21:37] INFO[api.go:51] loggin start, user:, password:
+[2024-03-10 16:48:00] INFO[api.go:74] loggin start, user:, password:
+[2024-03-10 16:48:14] INFO[api.go:74] loggin start, user:, password:
+[2024-03-10 16:53:29] INFO[api.go:74] loggin start, user:, password:
+[2024-03-10 16:53:29] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 16:53:29] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 16:53:29] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 16:53:30] ERROR[user.go:59] Login|用户尚未注册1
+[2024-03-10 16:57:42] INFO[api.go:74] loggin start, user:, password:
+[2024-03-10 16:57:42] ERROR[user.go:59] Login|用户尚未注册1
+[2024-03-10 17:24:32] ERROR[user.go:16] register param invalid
+[2024-03-10 17:37:02] ERROR[user.go:16] register param invalid
+[2024-03-10 17:38:44] ERROR[user.go:16] register param invalid
+[2024-03-10 17:41:14] ERROR[user.go:16] register param invalid
+[2024-03-10 17:44:21] ERROR[user.go:16] register param invalid
+[2024-03-10 17:45:37] ERROR[user.go:16] register param invalid
+[2024-03-10 17:47:11] ERROR[user.go:16] register param invalid
+[2024-03-10 17:54:27] ERROR[user.go:16] register param invalid
+[2024-03-10 17:54:37] ERROR[user.go:16] register param invalid
+[2024-03-10 17:54:44] ERROR[user.go:16] register param invalid
+[2024-03-10 19:53:56] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 19:53:56] INFO[user.go:40] user ====== &{CreateModel:{Creator: CreateTime:0001-01-01 00:00:00 +0000 UTC} ModifyModel:{Modifier: ModifyTime:0001-01-01 00:00:00 +0000 UTC} ID:0 Name: Gender: Age:0 PassWord: NickName:}
+[2024-03-10 19:53:56] INFO[user.go:28] insert success
+[2024-03-10 20:06:07] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 20:06:07] ERROR[user.go:25] user is existed, user_name == 
+[2024-03-10 20:08:28] INFO[api.go:74] loggin start, user:, password:
+[2024-03-10 20:08:28] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 20:08:28] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 20:08:28] INFO[user.go:122] user === &{CreateModel:{Creator: CreateTime:2024-03-10 19:53:56 +0800 CST} ModifyModel:{Modifier: ModifyTime:2024-03-10 19:53:56 +0800 CST} ID:4 Name: Gender: Age:0 PassWord: NickName:}
+[2024-03-10 20:08:28] INFO[user.go:127] getUserInfo successfully, with key userinfo_
+[2024-03-10 20:08:28] INFO[user.go:80] Login successfully, @ with redis_session session_9285b84c4838f4882729e0ead65081df
+[2024-03-10 20:08:28] INFO[user.go:135] e0978c236ca8f474236909ae05b432bb|GetUserInfo access from,user_name=isaac|session=9285b84c4838f4882729e0ead65081df
+[2024-03-10 20:08:28] ERROR[user.go:148] e0978c236ca8f474236909ae05b432bb|session info not match with username=isaac
+[2024-03-10 20:08:28] INFO[user.go:150] e0978c236ca8f474236909ae05b432bb|Succ to GetUserInfo|user_name=isaac|session=9285b84c4838f4882729e0ead65081df
+[2024-03-10 20:22:14] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 20:23:45] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 20:23:59] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 20:23:59] ERROR[user.go:25] user is existed, user_name == 
+[2024-03-10 20:34:00] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 20:34:00] ERROR[user.go:25] user is existed, user_name == 
+[2024-03-10 20:40:06] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 20:40:06] ERROR[user.go:25] user is existed, user_name == 
+[2024-03-10 20:40:09] ERROR[user.go:25] user is existed, user_name == 
+[2024-03-10 20:46:26] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 20:46:33] INFO[db.go:22] mdb addr:root:020613@(0.0.0.0:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2024-03-10 20:46:33] INFO[user.go:40] user ====== &{CreateModel:{Creator:xiaohong CreateTime:0001-01-01 00:00:00 +0000 UTC} ModifyModel:{Modifier:xiaohong ModifyTime:0001-01-01 00:00:00 +0000 UTC} ID:0 Name:xiaohong Gender:female Age:15 PassWord: NickName:xiao}
+[2024-03-10 20:46:33] INFO[user.go:28] insert success
+[2024-03-10 20:46:55] INFO[api.go:74] loggin start, user:xiaohong, password:123
+[2024-03-10 20:46:55] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 20:46:55] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 20:46:55] INFO[user.go:122] user === &{CreateModel:{Creator:xiaohong CreateTime:2024-03-10 20:46:34 +0800 CST} ModifyModel:{Modifier:xiaohong ModifyTime:2024-03-10 20:46:34 +0800 CST} ID:5 Name:xiaohong Gender:female Age:15 PassWord: NickName:xiao}
+[2024-03-10 20:46:55] INFO[user.go:127] getUserInfo successfully, with key userinfo_xiaohong
+[2024-03-10 20:46:55] ERROR[user.go:65] Login|password err: req.password=123|user.password=
+[2024-03-10 20:48:15] INFO[api.go:74] loggin start, user:xiaohong, password: 
+[2024-03-10 20:48:15] INFO[user.go:110] cache_user ======= &{{xiaohong 2024-03-10 20:46:34 +0800 CST} {xiaohong 2024-03-10 20:46:34 +0800 CST} 5 xiaohong female 15  xiao}
+[2024-03-10 20:48:15] ERROR[user.go:65] Login|password err: req.password= |user.password=
+[2024-03-10 20:48:38] INFO[api.go:74] loggin start, user:isaac, password:020613
+[2024-03-10 20:48:38] INFO[user.go:122] user === &{CreateModel:{Creator:isaac CreateTime:2024-03-04 21:20:58 +0800 CST} ModifyModel:{Modifier:isaac ModifyTime:2024-03-04 21:21:43 +0800 CST} ID:1 Name:isaac Gender:male Age:10 PassWord:020613 NickName:ding}
+[2024-03-10 20:48:38] INFO[user.go:127] getUserInfo successfully, with key userinfo_isaac
+[2024-03-10 20:48:38] INFO[user.go:80] Login successfully, isaac@020613 with redis_session session_0ea2c0ba3c39eb7257f1f48b73316080
+[2024-03-10 20:48:38] INFO[user.go:135] 35dd6d4ccabe2ae2f5a23f5e2b2c277e|GetUserInfo access from,user_name=isaac|session=0ea2c0ba3c39eb7257f1f48b73316080
+[2024-03-10 20:48:38] INFO[user.go:150] 35dd6d4ccabe2ae2f5a23f5e2b2c277e|Succ to GetUserInfo|user_name=isaac|session=0ea2c0ba3c39eb7257f1f48b73316080
+[2024-03-10 20:59:58] INFO[user.go:135] 7bcad8adfff6fa46c71c80ba4dcd823a|GetUserInfo access from,user_name=isaac|session=0ea2c0ba3c39eb7257f1f48b73316080
+[2024-03-10 20:59:58] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 20:59:58] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 20:59:58] INFO[user.go:150] 7bcad8adfff6fa46c71c80ba4dcd823a|Succ to GetUserInfo|user_name=isaac|session=0ea2c0ba3c39eb7257f1f48b73316080
+[2024-03-10 21:16:42] INFO[api.go:74] loggin start, user:isaac, password:02061
+[2024-03-10 21:16:42] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 21:16:42] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 21:16:42] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:16:42] ERROR[user.go:65] Login|password err: req.password=02061|user.password=020613
+[2024-03-10 21:22:39] INFO[api.go:74] loggin start, user:isaac, password:02061
+[2024-03-10 21:22:39] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 21:22:39] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 21:22:39] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:22:39] ERROR[user.go:65] Login|password err: req.password=02061|user.password=020613
+[2024-03-10 21:25:41] INFO[api.go:74] loggin start, user:isaac, password:02061
+[2024-03-10 21:25:41] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 21:25:41] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 21:25:41] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:25:41] ERROR[user.go:65] Login|password err: req.password=02061|user.password=020613
+[2024-03-10 21:26:48] INFO[api.go:74] loggin start, user:isaac, password:02061
+[2024-03-10 21:26:48] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:26:48] ERROR[user.go:65] Login|password err: req.password=02061|user.password=020613
+[2024-03-10 21:27:29] INFO[api.go:74] loggin start, user:isaac, password:02061
+[2024-03-10 21:27:29] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:27:29] ERROR[user.go:65] Login|password err: req.password=02061|user.password=020613
+[2024-03-10 21:29:53] INFO[api.go:74] loggin start, user:isaac, password:02
+[2024-03-10 21:29:53] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 21:29:53] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 21:29:53] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:29:53] ERROR[user.go:65] Login|password err: req.password=02|user.password=020613
+[2024-03-10 21:30:09] INFO[api.go:74] loggin start, user:isaac, password:02
+[2024-03-10 21:30:09] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:30:09] ERROR[user.go:65] Login|password err: req.password=02|user.password=020613
+[2024-03-10 21:30:41] INFO[api.go:74] loggin start, user:isaac, password:12
+[2024-03-10 21:30:41] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 21:30:41] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 21:30:41] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:30:41] ERROR[user.go:65] Login|password err: req.password=12|user.password=020613
+[2024-03-10 21:35:36] INFO[api.go:74] loggin start, user:isaac, password:0206123
+[2024-03-10 21:35:36] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:35:36] ERROR[user.go:65] Login|password err: req.password=0206123|user.password=020613
+[2024-03-10 21:35:51] INFO[api.go:74] loggin start, user:isaac, password:0206123
+[2024-03-10 21:35:51] INFO[redis.go:23] redisConfig======={Host:0.0.0.0 Port:8089 DB:0 PassWord: PoolSize:100}
+[2024-03-10 21:35:51] INFO[redis.go:35] res=======OK,err======<nil>
+[2024-03-10 21:35:51] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:35:51] ERROR[user.go:65] Login|password err: req.password=0206123|user.password=020613
+[2024-03-10 21:36:03] INFO[api.go:74] loggin start, user:isaac, password:020613
+[2024-03-10 21:36:03] INFO[user.go:110] cache_user ======= &{{isaac 2024-03-04 21:20:58 +0800 CST} {isaac 2024-03-04 21:21:43 +0800 CST} 1 isaac male 10 020613 ding}
+[2024-03-10 21:36:03] INFO[user.go:80] Login successfully, isaac@020613 with redis_session session_0ea2c0ba3c39eb7257f1f48b73316080
+[2024-03-10 21:36:05] INFO[user.go:135] 0f9f5afbf8033478138c048ab7e00284|GetUserInfo access from,user_name=isaac|session=0ea2c0ba3c39eb7257f1f48b73316080
+[2024-03-10 21:36:05] INFO[user.go:150] 0f9f5afbf8033478138c048ab7e00284|Succ to GetUserInfo|user_name=isaac|session=0ea2c0ba3c39eb7257f1f48b73316080
+[2024-03-10 21:36:09] INFO[user.go:90] 77764473aec6e3aa993fe86eef8fdb77|Logout access from,user_name=isaac|session=0ea2c0ba3c39eb7257f1f48b73316080
+[2024-03-10 21:36:09] INFO[user.go:103] 77764473aec6e3aa993fe86eef8fdb77|Success to delSessionInfo :0ea2c0ba3c39eb7257f1f48b73316080
